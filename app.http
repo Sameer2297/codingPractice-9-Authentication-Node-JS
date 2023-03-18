@@ -1,0 +1,34 @@
+POST http://localhost:5000/register/
+content-Type:application/json
+
+{
+    "username":"Sameer",
+    "name":"Sameer Gupta",
+    "password":"Srivalli98@",
+    "gender":"Male",
+    "location":"Visakhapatnam"
+}
+
+###
+
+POST http://localhost:5000/login/
+content-Type:application/json
+
+{
+    "username":"Sameer",
+    "name":"Sameer Gupta",
+    "password":"Srivalli98@",
+    "gender":"Male",
+    "location":"Visakhapatnam"
+}
+
+###
+
+PUT http://localhost:5000/change-password/
+content-Type:application/json
+
+{
+  "username": "Sameer",
+  "oldPassword": "Srivalli98@",
+  "newPassword": "Sriva"
+}
